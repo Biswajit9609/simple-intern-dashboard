@@ -28,27 +28,27 @@ A simple full stack intern dashboard built using **React** for frontend and **No
   - `GET /api/leaderboard`: returns dummy data:
     ```json
     {
-  {
-    "name": "Alex Doe",
-    "donationsRaised": 25000
-  },
-  {
-    "name": "Your Name",
-    "donationsRaised": 15000
-  },
-  {
-    "name": "Jane Smith",
-    "donationsRaised": 12000
-  },
-  {
-    "name": "Sam Wilson",
-    "donationsRaised": 9500
-  },
-  {
-    "name": "Chris Lee",
-    "donationsRaised": 7200
-  }
-  }
+      {
+        "name": "Alex Doe",
+        "donationsRaised": 25000
+      },
+      {
+        "name": "Your Name",
+        "donationsRaised": 15000
+      },
+      {
+        "name": "Jane Smith",
+        "donationsRaised": 12000
+      },
+      {
+        "name": "Sam Wilson",
+        "donationsRaised": 9500
+      },
+      {
+        "name": "Chris Lee",
+        "donationsRaised": 7200
+      }
+    }
     ```
 
 ## 📁 Folder Structure
