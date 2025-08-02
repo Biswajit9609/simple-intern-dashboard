@@ -16,13 +16,38 @@ A simple full stack intern dashboard built using **React** for frontend and **No
 
 ### ⚙️ Backend (Node.js + Express)
 - REST API with the following endpoint:
-  - `GET /api/intern`: returns dummy data:
+  - `GET /api/dashboard`: returns dummy data:
     ```json
     {
       "name": "Biswajit Chatterjee",
       "referralCode": "biswajit2025",
       "donationsRaised": 1500
     }
+    ```
+  - `GET /api/leaderboard`: returns dummy data:
+    ```json
+    
+  {
+    "name": "Alex Doe",
+    "donationsRaised": 25000
+  },
+  {
+    "name": "Your Name",
+    "donationsRaised": 15000
+  },
+  {
+    "name": "Jane Smith",
+    "donationsRaised": 12000
+  },
+  {
+    "name": "Sam Wilson",
+    "donationsRaised": 9500
+  },
+  {
+    "name": "Chris Lee",
+    "donationsRaised": 7200
+  }
+
     ```
 
 ## 📁 Folder Structure
