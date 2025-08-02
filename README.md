@@ -70,7 +70,6 @@ intern-portal/
 > [Frontend Live Link](https://simple-intern-dashboard-omega.vercel.app/)  
 > [Backend Live Link](https://simple-intern-dashboard.onrender.com)
 
-*(Replace with actual deployed links)*
 
 ---
 
@@ -107,21 +106,10 @@ npm run dev
 
 Frontend runs on [http://localhost:5173](http://localhost:5173)
 
----
-
-## 🖼️ Screenshots
-
-### Dashboard  
-![Dashboard](screenshots/dashboard.png)
-
-### Leaderboard (Bonus)  
-![Leaderboard](screenshots/leaderboard.png)
-
----
 
 ## 📦 Tech Stack
 
-- **Frontend**: React, Tailwind CSS (optional)
+- **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express
 - **Deployment**: Netlify/Vercel (frontend), Render/Railway (backend)
 
