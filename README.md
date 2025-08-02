@@ -27,7 +27,7 @@ A simple full stack intern dashboard built using **React** for frontend and **No
 
   - `GET /api/leaderboard`: returns dummy data:
     ```json
-    [
+    {
   {
     "name": "Alex Doe",
     "donationsRaised": 25000
@@ -48,7 +48,7 @@ A simple full stack intern dashboard built using **React** for frontend and **No
     "name": "Chris Lee",
     "donationsRaised": 7200
   }
-    ]
+  }
     ```
 
 ## 📁 Folder Structure
