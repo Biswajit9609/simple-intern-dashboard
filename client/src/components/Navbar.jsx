@@ -22,7 +22,6 @@ function Navbar() {
         <div className="flex justify-between h-16 items-center">
           <div className="flex-shrink-0">
             <Link href="/dashboard" className="flex items-center gap-2">
-              <img src="/placeholder.svg?height=32&width=32" alt="Logo" className="h-8 w-8" />
               <span className="text-2xl font-bold bg-gradient-to-r from-emerald-400 to-cyan-400 bg-clip-text text-transparent">
                 Intern Portal
               </span>

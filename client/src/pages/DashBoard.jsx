@@ -14,7 +14,7 @@ function Dashboard() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/dashboard")
+      .get("https://simple-intern-dashboard.onrender.com/api/dashboard")
       .then((response) => {
         setIntern(response.data)
         setLoading(false)

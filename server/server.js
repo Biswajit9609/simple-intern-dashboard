@@ -1,23 +1,22 @@
-// server.js
 import express from 'express';
 import cors from "cors"
-import 'dotenv/config'; // Load environment variables from .env file
+import 'dotenv/config';
 const app = express();
-const PORT = process.env.PORT || 3001; // Use port 3001 for the backend
+const PORT = process.env.PORT || 3001;
 
 app.use(cors({
     origin: process.env.CORS_ORIGIN,
     credentials: true
-})); // Enable Cross-Origin Resource Sharing
+})); 
 
-// Dummy data for the intern
+
 const internData = {
   name: "Your Name",
   referralCode: "yourname2025",
   donationsRaised: 15000,
 };
 
-// Bonus: Dummy data for the leaderboard
+
 const leaderboardData = [
     { name: "Alex Doe", donationsRaised: 25000 },
     { name: "Your Name", donationsRaised: 15000 },
@@ -27,12 +26,12 @@ const leaderboardData = [
 ];
 
 
-// API endpoint to get the main intern data
+
 app.get('/api/dashboard', (req, res) => {
   res.json(internData);
 });
 
-// Bonus: API endpoint to get leaderboard data
+
 app.get('/api/leaderboard', (req, res) => {
   res.json(leaderboardData);
 });

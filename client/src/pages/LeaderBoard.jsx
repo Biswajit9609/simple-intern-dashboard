@@ -13,7 +13,7 @@ function Leaderboard() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/leaderboard")
+      .get("https://simple-intern-dashboard.onrender.com/api/leaderboard")
       .then((response) => {
         setLeaders(response.data)
         setLoading(false)
