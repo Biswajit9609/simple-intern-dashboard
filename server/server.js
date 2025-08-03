@@ -11,9 +11,9 @@ app.use(cors({
 
 
 const internData = {
-  name: "Your Name",
-  referralCode: "yourname2025",
-  donationsRaised: 15000,
+  name: "Biswajit Chatterjee",
+  referralCode: "biswajit2025",
+  donationsRaised: 19000,
 };
 
 
