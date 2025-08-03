@@ -19,7 +19,7 @@ const internData = {
 
 const leaderboardData = [
     { name: "Alex Doe", donationsRaised: 25000 },
-    { name: "Your Name", donationsRaised: 15000 },
+    { name: "Biswajit Chatterjee", donationsRaised: 19000 },
     { name: "Jane Smith", donationsRaised: 12000 },
     { name: "Sam Wilson", donationsRaised: 9500 },
     { name: "Chris Lee", donationsRaised: 7200 },
